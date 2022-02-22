@@ -1,5 +1,16 @@
-# CC = gcc
-CC = gcc
+SHELL = /bin/sh
+prefix = /usr
+exec_prefix = $(prefix)
+lib_prefix = $(prefix)
+execdir = $(exec_prefix)/bin
+libdir = $(lib_prefix)/lib
+srcdir = .
+destdir = ~/tmp/bin
+
+INSTALL = /usr/bin/install -c
+INSTALL_PROGRAM = $(INSTALL)
+INSTALL_DATA = $(INSTALL) -m 644
+MKDIR_P = /usr/bin/mkdir -p
 
 # CFLAGS = -Wall -g
 CFLAGS = -Wall -g
@@ -13,51 +24,35 @@ INCLUDES =
 # LIBS = -lmylib -lm
 LIBS =
 
-# SRCS = .c's
-SRCS = main.c dep1.c
+srcs = main.c dep1.c
 
-# $(name:string1=string2)
-# OBJS = $(SRCS:.c=.o)
-OBJS = $(SRCS:.c=.o)
+objs = $(srcs:.c=.o)
 
-TARGET = main
+target = main
 
-SHELL = /bin/sh
-prefix = /usr
-exec_prefix = ${prefix}
-lib_prefix = ${prefix}
-execdir = ${exec_prefix}/bin
-libdir = ${lib_prefix}/lib
-srcdir = .
-
-INSTALL = /usr/bin/install -c
-INSTALL_PROGRAM = ${INSTALL}
-INSTALL_DATA = ${INSTALL} -m 644
-MKDIR_P = /usr/bin/mkdir -p
-
-all: $(TARGET)
+all: $(target)
 
 .PHONY: all install uninstall clean
 
-# $(TARGET): $(OBJS)
-#   $(CC) $(CFLAGS) $(INCLUDES) -o $(TARGET) $(OBJS) $(LFLAGS) $(LIBS)
-$(TARGET): $(OBJS)
-	$(CC) -o $(TARGET) $(OBJS)
+# $(target): $(objs)
+#   $(CC) $(CFLAGS) $(LFLAGS) $(LIBS) $(INCLUDES) -o $(target) $(objs) 
+$(target): $(objs)
+	$(CC) -o $(target) $(objs)
 
-# .c.o:
-#   $(CC) $(FLAGS) $(INCLUDES) -c $< -o $@
+# %.o: %.c:
+#   $(CC) $(CFLAGS) $(LFLAGS) $(LIBS) $(INCLUDES) -c $< -o $@
 main.o: main.c dep.h dep2.h
 	$(CC) -c main.c
 
 dep1.o: dep1.c
 	$(CC) -c dep1.c
 
-install: $(TARGET)
-	$(MKDIR_P) ~/tmp/bin
-	$(INSTALL_PROGRAM) $< ~/tmp/bin
+install: $(target)
+	$(MKDIR_P) $(destdir)
+	$(INSTALL_PROGRAM) $< $(destdir)
 
 uninstall:
-	$(RM) -rd ~/tmp/bin
+	$(RM) -rd $(destdir)
 
 clean:
-	$(RM) *.o *~ $(TARGET)
+	$(RM) *.o *~ $(target)
