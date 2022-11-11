@@ -14,8 +14,6 @@
 (setq display-time-day-and-date t
       display-time-24hr-format t
       display-time-format "%d %m %Y %H:%M")
-(setq user-full-name ""
-      user-mail-address "")
 
 (fset 'yes-or-no-p 'y-or-n-p)
 (setenv "LC_CTYPE" "zh_CN.utf-8")
@@ -37,7 +35,7 @@
  '(fringe-mode 0 nil (fringe))
  '(menu-bar-mode nil)
  '(package-selected-packages
-   '(flow-minor-mode ag expand-region company-flow flycheck-flow xref-js2 emms pdf-tools nov use-package flycheck company colorless-themes key-chord))
+   '(erc-49860 exwm pdf-tools erc flow-minor-mode ag expand-region company-flow flycheck-flow xref-js2 emms nov flycheck company colorless-themes key-chord))
  '(scroll-bar-mode nil)
  '(show-paren-mode t)
  '(size-indication-mode t)

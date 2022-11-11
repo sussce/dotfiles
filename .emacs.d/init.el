@@ -1,6 +1,9 @@
-;; init.el Bootstrap -*- lexical-binding: t -*-
+;; init.el -*- lexical-binding: t -*-
 
 (setq debug-on-error t)
+
+;; Reduce garbage collection frequency, for faster initialization.
+(setq gc-cons-threshold 100000000)
 
 (setq home-directory (getenv "HOME")
       org-directory (expand-file-name "org" home-directory)
@@ -9,8 +12,11 @@
       emacs-source-directory (expand-file-name "emacs" root-source-directory)      
       react-source-directory (expand-file-name "react/packages" root-source-directory))
 
-(setq url-gateway-method 'socks
+(setq socks-override-functions 1
+      socks-noproxy '("localhost")
+      url-gateway-method 'socks
       socks-server '("Default server" "127.0.0.1" 9909 5))
+
 (setq url-proxy-services
       '(("no_proxy" . "^\\(localhost\\|10.*\\)")
         ("http" . "127.0.0.1:9910")
@@ -30,7 +36,10 @@
 
 (require 'package0)
 
-(require 'use-package)
+(require 'exwm)
+(require 'exwm-config)
+(exwm-config-default)
+
 (require 'colorless-themes)
 (require 'key-chord)
 (require 'expand-region)
@@ -41,7 +50,7 @@
 (require 'xref-js2)
 (require 'flycheck-flow)
 (require 'company-flow)
-(require 'pdf-tools)
+;(require 'pdf-tools)
 
 (eval-after-load 'colorless-themes
  '(load-theme 'less t))
@@ -57,8 +66,9 @@
 (require 'dev0)
 (require 'devjs)
 (require 'org0)
+(require 'exwm0)
 (require 'irc0)
-(require 'pdf0)
+;(require 'pdf0)
 (require 'shortcut)
 ;;(require 'modeline0)
 ;;(require 'minibuffer0)

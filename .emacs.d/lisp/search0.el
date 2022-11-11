@@ -10,6 +10,7 @@
 (key-chord-define-global "?v" 'describe-variable)
 (key-chord-define-global "?s" 'info-lookup-symbol)
 (key-chord-define-global "?k" 'describe-key)
+(key-chord-define-global ",g" 'goto-line)
 
 (provide 'search0)
 ;; search0.el ends

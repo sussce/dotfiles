@@ -1,12 +1,18 @@
 [user]
 	name = 
-	email =
+	email = 
+  
+[init]
+	defaultBranch = main
+
+[http]
+	version = HTTP/2
+
 [alias]
 	b = branch
 	s = status -sb
 	c = checkout
 	l = log --graph --pretty='format:%C(red)%d%C(reset) %C(yellow)%h%C(reset) %ar %C(green)%aN%C(reset) %s' 
-
 	a = add .
 	cm = commit -m ','
 	gh = push origin gh-pages

@@ -1,4 +1,4 @@
-;; pdf0.el PDF stuff
+;; pdf0.el
 
 ;; (use-package pdf-tools
 ;;   :if my/laptop-p
