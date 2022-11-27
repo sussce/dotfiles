@@ -18,6 +18,5 @@
 	gh = push origin gh-pages
 	m = push origin main
 
-	shit = !git a && git cm && git gh
 	fuck = !git a && git cm && git m
-
+	shit = !git a && git cm && git gh

@@ -1,0 +1,306 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/suss/src/draft-js/examples/draft-0-10-0/" . "universal/")
+ ("/home/suss/src/draft-js/examples/" . "draft-0-10-0/")
+ ("/home/suss/src/draft-js/src/model/" . "immutable/")
+ ("/home/suss/src/draft-js/src/component/handlers/" . "edit/")
+ ("/home/suss/src/draft-js/src/component/" . "base/")
+ ("/home/suss/src/draft-js/src/" . "component/")
+ ("/home/suss/src/draft-js/" . "src/")
+ ("/home/suss/sfd/" . "src/")
+ ("/home/suss/sfd/src/model/" . "immutable/")
+ ("/home/suss/sfd/src/core/event/" . "commands/")
+ ("/etc/" . "tor/")
+ ("/home/suss/sfd/src/core/" . "component/")
+ ("/home/suss/sfd/src/" . "model/")
+ ("/home/suss/.emacs.d/elpa/pdf-tools-0.91/build/server/" . ".deps/")
+ ("/home/suss/lib/src/utils/" . "__tests__/")
+ ("/home/suss/sfd/node_modules/wbuf/" . "test/")
+ ("/home/suss/uselib/" . "public/")
+ ("/home/suss/dsa/" . "ds/")
+ ("/home/suss/src/emacs/" . "src/")
+ ("/home/suss/src/" . "draft-js/")
+ ("/" . "home/")
+ ("/home/suss/.emacs.d/elpa/pdf-tools-0.91/build/" . "server/")
+ ("/home/suss/.emacs.d/elpa/pdf-tools-0.91/" . "build/")
+ ("/home/" . "suss/")
+ ("/home/suss/.emacs.d/elpa/" . "pdf-tools-0.91/")
+ ("/home/suss/.emacs.d/" . "lisp/")
+ ("/home/suss/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/suss/.emacs.d/"
+ "/home/suss/.emacs.d/lisp/"
+ "/home/suss/tmp/"
+ "/home/suss/sfd/src/core/component/"
+ "/home/suss/sfd/src/model/immutable/"
+ "/home/suss/src/draft-js/src/component/base/"
+ "/home/suss/sfd/src/core/event/"
+ "/home/suss/sfd/src/core/event/handlers/"
+ "/home/suss/sfd/src/core/event/commands/"
+ "/home/suss/src/draft-js/src/component/handlers/edit/commands/"
+ "/home/suss/src/draft-js/src/model/immutable/"
+ "/home/suss/src/draft-js/src/component/handlers/edit/"
+ "/home/suss/src/draft-js/src/component/utils/"
+ "/home/suss/sfd/src/model/constants/"
+ "/home/suss/src/slate/packages/slate/"
+ "/home/suss/"
+ "/home/suss/src/slate/cypress/support/"
+ "/home/suss/sfd/"
+ "/home/suss/sfd/server/"
+ "/home/suss/sfd/src/core/selection/"
+ "/home/suss/sfd/src/model/modifiers/"
+ "/home/suss/sfd/src/model/transaction/"
+ "/home/suss/src/draft-js/src/model/transaction/"
+ "/home/suss/src/draft-js/src/model/modifier/"
+ "/home/suss/sfd/src/"
+ "/home/suss/src/draft-js/src/"
+ "/home/suss/sfd/src/model/entity/"
+ "/home/suss/src/draft-js/src/model/entity/"
+ "/home/suss/sfd/refs/"
+ "/home/suss/dotfiles/"
+ "/home/suss/.ssh/"
+ "/home/suss/.tor/"
+ "/home/suss/dotfiles/.emacs.d/"
+ "/home/suss/dotfiles/.emacs.d/lisp/"
+ "/home/suss/sh/"
+ "/home/suss/src/draft-js/examples/draft-0-10-0/color/"
+ "/home/suss/src/draft-js/examples/draft-0-10-0/universal/"
+ "/home/suss/src/draft-js/src/component/contents/"
+ "/home/suss/sfd/src/model/decorator/"
+ "/home/suss/sfd/src/utils/"
+ "/home/suss/src/draft-js/src/stubs/"
+ "/home/suss/src/snowflake-pt-proxy/"
+ "/etc/tor/"
+ "/home/suss/dotfiles/.tor/"
+ "/home/suss/src/geph/resources/app/binaries/linux-x64/"
+ "/home/suss/uselib/"
+ "/home/suss/src/draft-js/"
+ "/home/suss/uselib/src/"
+ "/home/suss/uselib/public/"
+ "/home/suss/lib/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "pref.el"
+ "irc0.el"
+ "erc-d"
+ "Content.js"
+ "EditorState.js"
+ "DraftEditor.react.js"
+ "Editor.js"
+ "keyMap.js"
+ "onKeyDown.js"
+ "handleUndo.js"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/suss/tmp/" (25474 48862 629568 704000) "dep.h" "cal.c" "../" "m" "tree" "a.js" "tree.c" "geph-linux64-4.4.20.tar.xz" "dir1/" "frobt-05-00102 (1).pdf" "0p5.log" "erc-d" "eventlog.txt" "goto.c" "Unconfirmed 548057.crdownload" "dep1.c" "snowflake-v2.3.1.tar.gz" "main.c" "8964_paper_3SS6RRRB.pdf" "frobt-05-00102.pdf" "./" "Geph-x86_64.flatpak" "dep2.h" "Makefile" "a.html" "dir2/" "xvideos.com_3f0f6026f2b24c2efc028d8018d3f2ba.mp4" "asciitree.c" "01F.bin" "cal" "applsci-10-03433.pdf" "asciitree" "knuth-GOTO.pdf")
+
+ ("/home/suss/" (25474 48263 421200 590000) "proxy.sh" ".gnupg/" "../" "node/" ".tor/" ".config/" ".ssh/" ".irc/" "sfd/" ".bash_logout" "dsa/" ".npmignore" "uselib/" ".bashrc" "lfd.1/" "tmp/" "site/" ".viminfo" ".npm/" ".xinitrc" "sh/" ".Xauthority" ".pki/" "./" ".bash_history" ".node_repl_history" "src/" ".emacs.d/" ".lesshst" ".bash_profile" ".cert/" ".xserverrc" "doc/" "AUR/" "react/" ".cache/" "site.1/" ".wget-hsts" ".local/" ".gitconfig" ".mozilla/" "dotfiles/")
+
+ ("/etc/tor/" (25473 15104 401868 925000) "../" "torrc" "./")
+
+ ("/home/suss/src/draft-js/src/component/handlers/edit/commands/" (25473 63855 454608 518000) "keyCommandBackspaceToStartOfLine.js" "../" "keyCommandTransposeCharacters.js" "keyCommandInsertNewline.js" "keyCommandPlainDelete.js" "keyCommandDeleteWord.js" "./" "keyCommandUndo.js" "moveSelectionForward.js" "removeTextWithStrategy.js" "__tests__/" "keyCommandMoveSelectionToStartOfBlock.js" "keyCommandMoveSelectionToEndOfBlock.js" "SecondaryClipboard.js" "moveSelectionBackward.js" "keyCommandPlainBackspace.js" "keyCommandBackspaceWord.js")
+
+ ("/home/suss/sfd/src/core/event/handlers/" (25474 8888 975494 988000) "../" "onSelect.js" "onFocus.js" "onInput.js" "./" "onBlur.js" "onKeyDown.js" "onBeforeInput.js")
+
+ ("/home/suss/sfd/src/core/component/" (25474 9588 287222 218000) "../" "Leaf.js" "Block.js" "TextNode.js" "Content.js" "./" "Editor.js")
+
+ ("/home/suss/sfd/src/model/immutable/" (25474 11019 728620 965000) "../" "EditorState.js" "Tree.js" "CharMeta.js" "ContentState.js" "SelectionState.js" "ContentBlock.js" "./" "InlineStyle.js" "findRange.js")
+
+ ("/home/suss/.emacs.d/lisp/" (25472 56560 96718 187000) "search0.el" "../" "window0.el" "region0.el" "proxy0.el" "shortcut.el" "buffer0.el" "./" "devjs.el" "irc0.el" "pdf0.el" "dev0.el" "org0.el" "eval0.el" "macro0.el" "exwm0.el" "package0.el")
+
+ ("/home/suss/.emacs.d/" (25473 11873 431420 139000) "elpa/" "../" "pref.el" "lisp-third/" "auto-save-list/" "./" "init.el" "#ido.last#" "ido.last" "lisp/")
+
+ ("/home/suss/sfd/src/core/event/commands/" (25474 9449 136903 903000) "../" "insertNewLine.js" "handleUndo.js" "./" "backspaceWord.js" "backspace.js")
+
+ ("/home/suss/sfd/src/core/event/" (25473 61268 95006 579000) "../" "commands/" "keyMap.js" "./" "handlers/" "eventHandler.js" "keys.js")
+
+ ("/home/suss/src/draft-js/src/model/immutable/" (25472 52993 569376 871000) "ContentBlockNode.js" "BlockNode.js" "../" "DefaultDraftBlockRenderMap.js" "EditorState.js" "findRangesImmutable.js" "EditorBidiService.js" "ContentStateRawType.js" "DraftBlockRenderConfig.js" "ContentState.js" "SelectionState.js" "ContentBlock.js" "DraftBlockRenderMap.js" "BlockMap.js" "SampleDraftInlineStyle.js" "BlockNodeRecord.js" "BlockMapBuilder.js" "./" "DefaultDraftInlineStyle.js" "__tests__/" "EditorChangeType.js" "DraftInlineStyle.js" "CharacterMetadata.js" "BlockTree.js" "EntityMap.js")
+
+ ("/home/suss/src/draft-js/src/component/handlers/edit/" (25473 60856 800720 499000) "editOnFocus.js" "editOnKeyDown.js" "getFragmentFromSelection.js" "../" "editOnCompositionStart.js" "editOnInput.js" "editOnCut.js" "editOnBeforeInput.js" "DraftEditorEditHandler.js" "commands/" "editOnDragStart.js" "./" "__tests__/" "editOnCopy.js" "editOnBlur.js" "editOnDragOver.js" "editOnSelect.js" "editOnPaste.js")
+
+ ("/home/suss/sfd/server/" (25472 47616 827891 105000) "../" "color.js" "template.html" "server.js" "entity.js" "./" "link.js")
+
+ ("/home/suss/sfd/src/model/constants/" (25470 16511 804495 892000) "../" "KeyCommand.js" "./" "styleMap.js")
+
+ ("/home/suss/src/draft-js/src/component/utils/" (25447 27582 504699 786000) "isHTMLElement.js" "isEventHandled.js" "../" "splitTextIntoTextBlocks.js" "getWindowForNode.js" "getCorrectDocumentFromNode.js" "_DraftTestHelper.js" "isInstanceOfNode.js" "isHTMLAnchorElement.js" "getDefaultKeyBinding.js" "isSoftNewlineEvent.js" "DraftStyleDefault.css" "getTextContentFromFiles.js" "./" "isHTMLBRElement.js" "exploration/" "KeyBindingUtil.js" "isHTMLImageElement.js" "isElement.js" "DraftDOMTypes.js" "__tests__/" "getContentEditableContainer.js" "draftKeyUtils.js")
+
+ ("/home/suss/src/slate/packages/" (25469 30541 632694 152000) "../" "slate-history/" "./" "slate/" "slate-hyperscript/" "slate-react/")
+
+ ("/home/suss/src/slate/packages/slate/" (25469 30541 686027 331000) "test/" "../" "Readme.md" "package.json" "./" "CHANGELOG.md" "src/" "tsconfig.json")
+
+ ("/home/suss/src/slate/packages/slate/src/" (25469 30541 636027 475000) "../" "transforms/" "create-editor.ts" "utils/" "./" "index.ts" "interfaces/")
+
+ ("/home/suss/src/slate/cypress/support/" (25469 30541 609360 885000) "../" "commands.ts" "./" "index.ts")
+
+ ("/home/suss/src/slate/cypress/" (25469 30541 609360 885000) "../" "./" "tsconfig.json" "integration/" "support/")
+
+ ("/home/suss/src/" (25469 30527 172736 831000) "geph/" "../" "draft-js/" "snowflake/" "./" "emacs/" "slate/")
+
+ ("/home/suss/src/slate/" (25469 30541 689360 655000) ".prettierignore" "config/" "../" "Readme.md" ".github/" "jest.config.js" ".eslintignore" ".editorconfig" "babel.config.js" ".gitignore" "now.json" "yarn.lock" "site/" "docs/" "package.json" ".markdownlint.json" "./" ".yarnrc.yml" "License.md" ".git/" ".changeset/" ".gitbook.yaml" ".eslintrc.json" "tsconfig.json" "packages/" "lerna.json" ".lintstagedrc.js" "support/" ".yarn/" "cypress.json" ".vscode/" "cypress/" ".gitattributes" ".prettierrc" ".yarnrc")
+
+ ("/home/suss/sfd/src/model/transaction/" (25467 7660 898356 85000) "../" "applyStyleToBlock.js" "removeRange.js" "applyStyle.js" "insertChars.js" "./" "removeStyle.js" "applyEntity.js" "applyEntityToBlock.js" "splitBlock.js" "insertToList.js")
+
+ ("/home/suss/sfd/src/model/modifiers/" (25467 23972 331258 683000) "../" "richUtil.js" "./" "modifier.js")
+
+ ("/home/suss/sfd/src/core/selection/" (25467 31684 798347 725000) "getContentEditable.js" "../" "isSelectionAtLeafStart.js" "RawSelection.js" "castSelection.js" "setRawSelection.js" "./" "findOffsetKey.js" "getCastSelection.js" "getOffsetKey.js" "getRawSelection.js")
+
+ ("/home/suss/src/draft-js/src/model/modifier/" (25455 46330 864969 451000) "getRangesForDraftEntity.js" "../" "RichTextUtils.js" "RichTextEditorUtil.js" "getCharacterRemovalRange.js" "DraftRange.js" "DraftModifier.js" "./" "exploration/" "AtomicBlockUtils.js" "DraftEntitySegments.js" "#DraftModifier.js#" "__tests__/" "DraftRemovableWord.js")
+
+ ("/home/suss/.irc/" (25098 10121 900699 716000) "ssl/" "../" "log/" "./")
+
+ ("/home/suss/src/draft-js/src/component/base/" (25455 39458 329611 387000) "../" "DraftEditorPlaceholder.react.js" "#DraftEditorProps.js#" "DraftScrollPosition.js" "DraftEditorPlaceholder.css" "./" "DraftTextAlignment.js" "DraftEditor.css" "DraftEditorFlushControlled.js" "__tests__/" "DraftEditorProps.js" "DraftEditor.react.js")
+
+ ("/home/suss/sfd/src/model/entity/" (25455 27397 488337 259000) "../" "./" "Entity.js" "EntityUtil.js" "Mutability.js")
+
+ ("/home/suss/src/draft-js/src/model/entity/" (25447 27582 508033 193000) "DraftEntity.js" "../" "DraftEntityType.js" "__mocks__/" "getTextAfterNearestEntity.js" "./" "DraftEntityInstance.js" "__tests__/" "getEntityKeyForSelection.js" "DraftEntityMutability.js")
+
+ ("/home/suss/dotfiles/.tor/" (25454 12058 241646 513000) "../" "tor.md" "torrc.1" "torrc" "geoip6" "geoip" "./")
+
+ ("/home/suss/dotfiles/.emacs.d/lisp/" (25454 9489 725002 685000) "search0.el" "../" "window0.el" "region0.el" "proxy0.el" "shortcut.el" "buffer0.el" "./" "devjs.el" "irc0.el" "pdf0.el" "dev0.el" "org0.el" "eval0.el" "macro0.el" "exwm0.el" "package0.el")
+
+ ("/home/suss/.tor/" (25454 10220 846419 79000) "lock" "cached-certs" "../" "state" "tor.md" "torrc.1" "torrc" "geoip6" "geoip" "./" "cached-microdescs" "keys/" "pt_state/" "cached-microdesc-consensus" "cached-descriptors" "cached-microdescs.new" "cached-descriptors.new")
+
+ ("/home/suss/dotfiles/" (25454 11888 573931 706000) "../" ".tor/" ".bashrc" ".gitignore" ".xinitrc" "./" ".babelrc" "Makefile" ".git/" ".emacs.d/" ".eslintrc.js" ".xserverrc" ".flowconfig" ".my.cnf" "README.md" ".gitconfig")
+
+ ("/home/suss/src/draft-js/src/model/transaction/" (25455 19618 778371 456000) "modifyBlockForContentState.js" "../" "splitBlockInContentState.js" "applyEntityToContentState.js" "ContentStateInlineStyle.js" "randomizeBlockMapKeys.js" "getSampleStateForTesting.js" "moveBlockInContentState.js" "insertTextIntoContentState.js" "./" "exploration/" "removeRangeFromContentState.js" "getContentStateFragment.js" "insertFragmentIntoContentState.js" "insertIntoList.js" "__tests__/" "removeEntitiesAtEdges.js" "applyEntityToContentBlock.js" "adjustBlockDepthForContentState.js")
+
+ ("/home/suss/sfd/refs/" (25440 51999 785206 513000) "../" "deps" "3" "2" "./" "tweet-editor.js" "4" "color-editor.js" "1")
+
+ ("/home/suss/.ssh/" (25433 5102 442814 634000) "../" "id_ed25519.pub" "known_hosts.old" "known_hosts" "./" "id_ed25519")
+
+ ("/home/suss/dotfiles/.emacs.d/" (25454 9641 832696 122000) "elpa/" "../" "pref.el" "lisp-third/" "auto-save-list/" "./" "init.el" "lisp/")
+
+ ("/home/suss/.emacs.d/elpa/" (25454 310 465695 390000) "xelb-0.18.signed" "js2-mode-20211229.135/" "../" "exwm-0.26.signed" "bind-key-20210210.1609/" "gnupg/" "colorless-themes-20210102.1035/" "pkg-info-20150517.1143/" "flycheck-20210825.1804/" "expand-region-20210708.1952/" "flycheck-flow-20190304.1459/" "kv-20140108.1534/" "./" "tablist-20200427.2205/" "company-flow-20180225.2159/" "dash-20210826.1149/" "ag-20201031.2202/" "flow-minor-mode-20200905.1730/" "nov-20211230.954/" "key-chord-20201222.2030/" "archives/" "pdf-tools-0.91/" "company-20220110.2248/" "s-20210616.619/" "exwm-0.26/" "xref-js2-20210310.1238/" "epl-20180205.2049/" "compat-28.1.2.2/" "esxml-20211122.1657/" "emms-20220131.501/" "compat-28.1.2.2.signed" "erc-49860-5.4.1.49860.0.20221104.121822/" "xelb-0.18/")
+
+ ("/home/suss/.emacs.d/elpa/erc-49860-5.4.1.49860.0.20221104.121822/" (25454 3795 226992 465000) "erc-match.elc" "test/" "erc-eldoc.elc" "erc-autoaway.elc" "erc-desktop-notifications.el" "erc-identd.el" "erc-ring.el" "erc-button.el" "erc-v3.el" "erc-spelling.elc" "../" "erc-sasl.el" "dir" "erc-replace.el" "erc-stamp.elc" "erc-stamp.el" "erc-track.elc" "erc-common.el" "docstyle.texi" "COPYING" "erc-fill.el" "erc-backend.elc" "erc-log.el" "erc-join.el" "erc-49860-autoloads.el" "doclicense.texi" "erc-v3-batch.elc" "erc-capab.elc" "erc-masquerade.el" "erc-ezbounce.elc" "erc-status-sidebar.elc" "erc-networks.el" "erc-notify.elc" "erc-imenu.elc" "erc-ring.elc" "erc-autoaway.el" "erc-dcc.elc" "erc-pkg.el" "erc-netsplit.elc" "erc-masquerade.elc" "erc-sasl.elc" "erc-xdcc.elc" "erc-common.elc" "erc-dcc.el" "erc-sound.el" "erc-ezbounce.el" "erc.texi" "erc-services.elc" "ERC-NEWS" "erc-ibuffer.el" "erc-page.elc" "erc-backend.el" "erc-loaddefs.el" "erc-page.el" "erc-identd.elc" "emacsver.texi" "erc-xdcc.el" "erc-netsplit.el" "erc-pcomplete.elc" "erc-spelling.el" "erc-list.el" "erc-fill.elc" "erc-menu.elc" "erc-names.el" "erc-notify.el" "./" "erc-imenu.el" "erc-log.elc" "erc-replace.elc" "erc-speedbar.el" "erc-v3-labeled-response.elc" "erc-compat.elc" "erc-services.el" "erc-speedbar.elc" "erc-track.el" "erc-v3.elc" "erc-truncate.elc" "erc-match.el" "erc.el" "erc.elc" "erc-goodies.el" "erc-networks.elc" "erc-v3-sasl.elc" "erc-names.elc" "erc-v3-sasl.el" "erc-lang.el" "erc-list.elc" "erc-desktop-notifications.elc" "erc-ibuffer.elc" "erc-join.elc" "erc-sound.elc" "erc-49860.el" "erc-pcomplete.el" "erc-menu.el" "erc-capab.el" "erc.info" "erc-49860.elc" "erc-compat.el" "erc-truncate.el" "erc-eldoc.el" "erc-button.elc" "erc-v3-labeled-response.el" "erc-lang.elc" "erc-v3-batch.el" "erc-status-sidebar.el" "erc-goodies.elc")
+
+ ("/home/suss/.emacs.d/elpa/erc-49860-5.4.1.49860.0.20220708.32506/" (25452 26231 299429 424000) "erc-match.elc" "test/" "erc-autoaway.elc" "erc-desktop-notifications.el" "erc-identd.el" "erc-ring.el" "erc-button.el" "erc-v3.el" "erc-spelling.elc" "../" "dir" "erc-replace.el" "erc-stamp.elc" "erc-stamp.el" "erc-track.elc" "docstyle.texi" "COPYING" "erc-fill.el" "erc-backend.elc" "erc-log.el" "erc-join.el" "erc-49860-autoloads.el" "doclicense.texi" "erc-capab.elc" "erc-ezbounce.elc" "erc-status-sidebar.elc" "erc-networks.el" "erc-notify.elc" "erc-imenu.elc" "erc-ring.elc" "erc-autoaway.el" "erc-dcc.elc" "erc-pkg.el" "erc-netsplit.elc" "erc-xdcc.elc" "erc-dcc.el" "erc-sound.el" "erc-ezbounce.el" "erc.texi" "erc-services.elc" "ERC-NEWS" "erc-ibuffer.el" "erc-page.elc" "erc-backend.el" "erc-loaddefs.el" "erc-page.el" "erc-identd.elc" "emacsver.texi" "erc-xdcc.el" "erc-netsplit.el" "erc-pcomplete.elc" "erc-spelling.el" "erc-list.el" "erc-fill.elc" "erc-menu.elc" "erc-names.el" "erc-notify.el" "./" "erc-imenu.el" "erc-log.elc" "erc-replace.elc" "erc-speedbar.el" "erc-compat.elc" "erc-services.el" "erc-speedbar.elc" "erc-track.el" "erc-v3.elc" "erc-truncate.elc" "erc-match.el" "erc.el" "erc.elc" "erc-goodies.el" "erc-networks.elc" "erc-v3-sasl.el" "erc-lang.el" "erc-list.elc" "erc-desktop-notifications.elc" "erc-ibuffer.elc" "erc-join.elc" "erc-sound.elc" "erc-49860.el" "erc-pcomplete.el" "erc-menu.el" "erc-capab.el" "erc.info" "erc-49860.elc" "erc-compat.el" "erc-truncate.el" "erc-eldoc.el" "erc-button.elc" "erc-v3-labeled-response.el" "erc-lang.elc" "erc-v3-batch.el" "erc-status-sidebar.el" "erc-goodies.elc")
+
+ ("/home/suss/sfd/src/" (25450 14571 846205 861000) "core/" "../" "utils/" "model/" "./" "sfd.js")
+
+ ("/home/suss/src/draft-js/examples/draft-0-10-0/color/" (25447 27582 458032 77000) "../" "color.html" "./")
+
+ ("/home/suss/src/draft-js/examples/draft-0-10-0/universal/" (25447 27582 491366 155000) "../" "readme.md" "index.js" "client.js" "yarn.lock" "package.json" "./" ".babelrc" "static/" "editor.js")
+
+ ("/home/suss/src/draft-js/examples/draft-0-10-0/" (25447 27582 491366 155000) "rich/" "../" "link/" "tex/" "convertFromHTML/" "entity/" "iframe/" "universal/" "plaintext/" "color/" "./" "media/" "tweet/" "playground/")
+
+ ("/home/suss/src/draft-js/examples/" (25447 27582 454698 669000) "../" "draft-0-10-0/" "./")
+
+ ("/home/suss/sfd/src/model/decorator/" (25193 3735 509641 211000) "../" "./" "Decorator.js")
+
+ ("/home/suss/src/draft-js/src/stubs/" (25447 27582 524700 232000) "../" "gkx.js" "DraftEditorContents.react.js" "DraftJsDebugLogging.js" "DraftEffects.js" "./" "ComposedEntityMutability.js")
+
+ ("/home/suss/src/draft-js/src/component/contents/" (25447 27582 498032 970000) "../" "DraftEditorContents-core.react.js" "DraftEditorTextNode.react.js" "./" "exploration/" "DraftEditorBlock.react.js" "__tests__/" "DraftEditorLeaf.react.js")
+
+ ("/home/suss/src/draft-js/" (25447 27582 528033 640000) "meta/" "../" "prettier.config.js" ".alexignore" ".github/" ".eslintignore" "gulpfile.js" "LICENSE" ".gitignore" "yarn.lock" "CODE_OF_CONDUCT.md" "docs/" "package.json" "./" "LICENSE-examples" ".git/" "CHANGELOG.md" "website/" "src/" ".eslintrc.js" "examples/" ".alexrc.js" "README.md" ".dependabot/" "CONTRIBUTING.md" "scripts/")
+
+ ("/home/suss/src/draft-js/src/model/" (25447 27582 521366 825000) "../" "paste/" "modifier/" "transaction/" "entity/" "./" "keys/" "encoding/" "constants/" "decorators/" "immutable/")
+
+ ("/home/suss/src/draft-js/src/" (25447 27582 524700 232000) "../" "Draft.js" "NonASCIIStringSnapshotSerializer.js" "util/" "__mocks__/" "component/" "model/" "./" "stubs/" ".flowconfig" "flowlib/")
+
+ ("/home/suss/src/draft-js/src/component/" (25447 27582 501366 378000) "../" "selection/" "utils/" "./" "base/" "handlers/" "contents/")
+
+ ("/home/suss/src/draft-js/src/component/handlers/" (25447 27582 498032 970000) "../" "composition/" "./" "edit/" "DraftEditorModes.js" "drag/")
+
+ ("/home/suss/sfd/src/model/" (25186 30357 141747 102000) "../" "transaction/" "decorator/" "entity/" "./" "constants/" "modifiers/" "immutable/")
+
+ ("/home/suss/src/snowflake-pt-proxy/" (25443 41266 790822 197000) "../" ".SRCINFO" "./" "snowflake-proxy.service" ".git/" "PKGBUILD")
+
+ ("/opt/" (25443 6036 684239 317000) "firefox-esr/" "../" "./" "tor-browser/")
+
+ ("/opt/firefox-esr/" (25315 50946 753215 724000) "libmozgtk.so" "icons/" "../" "firefox-bin.sig" "libxul.so.sig" "libipcclientcerts.so" "precomplete" "browser/" "libsoftokn3.so" "firefox-bin" "platform.ini" "libplds4.so" "plugin-container" "liblgpllibs.so" "libnssckbi.so" "updater.ini" "libmozsandbox.so" "libfreeblpriv3.so" "update-settings.ini" "libmozwayland.so" "minidump-analyzer" "libsmime3.so" "libmozavutil.so" "libxul.so" "defaults/" "firefox.sig" "removed-files" "libmozavcodec.so" "updater" "./" "crashreporter.ini" "gmp-clearkey/" "omni.ja" "pingsender" "crashreporter" "libnspr4.so" "dependentlibs.list" "fonts/" "Throbber-small.gif" "libmozsqlite3.so" "libplc4.so" "firefox" "application.ini" "libssl3.so" "libnss3.so" "libnssutil3.so" "plugin-container.sig")
+
+ ("/usr/" (25443 6036 920909 593000) "../" "lib/" "etc/" "lib64/" "include/" "./" "src/" "bin/" "sbin/" "lib32/" "share/" "local/")
+
+ ("/usr/share/" (25442 12345 740376 901000) "file/" "thumbnailers/" "tor/" "icons/" "desktop-directories/" "../" "imlib2/" "readline/" "misc/" "fontconfig/" "stardict/" "aclocal-1.16/" "gir-1.0/" "zoneinfo-leaps/" "gnupg/" "mime/" "glib-2.0/" "i18n/" "ibus/" "xcb/" "git-core/" "gettext-0.21.1/" "bash-completion/" "iana-etc/" "ladspa/" "glvnd/" "graphite2/" "libdrm/" "libgpg-error/" "gitweb/" "tabset/" "makepkg-template/" "pixmaps/" "fish/" "info/" "groff/" "ffmpeg/" "appdata/" "texinfo/" "et/" "dbus-1/" "gettext/" "openmpi/" "mkinitcpio/" "gcc-12.2.0/" "libthai/" "mpv/" "hwloc/" "polkit-1/" "audit/" "perl5/" "man/" "ss/" "java/" "themes/" "libwacom/" "zoneinfo-posix/" "lua/" "defaults/" "drirc.d/" "locale/" "cmake/" "xtables/" "mobile-broadband-provider-info/" "model/" "./" "common-lisp/" "autoconf/" "source-highlight/" "vala/" "aclocal/" "GConf/" "emacs/" "luajit-2.1.0-beta3/" "awk/" "gtk-doc/" "makepkg/" "hwdata/" "gtk-2.0/" "enchant/" "licenses/" "libtool/" "gdb/" "pacman/" "libalpm/" "gitk/" "pmix/" "git/" "p11-kit/" "gtk-3.0/" "iso-codes/" "X11/" "systemd/" "zsh/" "factory/" "ca-certificates/" "iptables/" "wayland/" "m17n/" "terminfo/" "doc/" "sounds/" "alsa/" "zoneinfo/" "avahi/" "fonts/" "glslang/" "bison/" "vim/" "slsh/" "keyutils/" "automake-1.16/" "git-gui/" "gstreamer-1.0/" "metainfo/" "libinput/" "tracker3/" "xray/" "kbd/" "guile/" "pkgconfig/" "icu/" "applications/" "gst-plugins-base/" "xml/" "openvpn/" "tc/")
+
+ ("/usr/share/applications/" (25443 6037 167580 21000) "emacs.desktop" "firefox-esr-safe.desktop" "emacsclient-mail.desktop" "../" "bvnc.desktop" "chromium.desktop" "emacsclient.desktop" "firefox-esr.desktop" "mpv.desktop" "protonvpn.desktop" "qvidcap.desktop" "notification-daemon.desktop" "./" "tor-browser.desktop" "stardict.desktop" "emacs-mail.desktop" "qv4l2.desktop" "vim.desktop" "avahi-discover.desktop" "weechat.desktop" "lstopo.desktop" "mimeinfo.cache" "bssh.desktop")
+
+ ("/etc/" (25443 4514 521060 192000) "slsh.rc" "inputrc" "ssl/" "tor/" "mkinitcpio.d/" "conf.d/" "machine-id" "../" "securetty" "pinentry/" "udev/" "iproute2/" "depmod.d/" "subgid" "issue" "modules-load.d/" "protocols" "pacman.d/" "rpc" "pacman.conf" "wpa_supplicant/" "sysctl.d/" "skel/" "e2scrub.conf" "host.conf" "locale.conf" "locale.gen" "ld.so.cache" "nsswitch.conf" "pam.d/" "sensors.d/" "ld.so.conf.d/" "default/" "rc_keymaps/" "krb5.conf" "mime.types" "sensors3.conf" "pulse/" "shadow-" "services" "mtab" "bash.bashrc" "modprobe.d/" "nscd.conf" "openmpi/" "pkcs11/" "binfmt.d/" "mpv/" "subuid" "audit/" "nginx/" "environment" "gai.conf" "kernel/" "named.conf" "netconfig" "mke2fs.conf" "sudoers.pacnew" "healthd.conf" "adjtime" "bindresvport.blacklist" "rc_maps.cfg" "makepkg.conf" "mailcap" "./" "bind.keys" "profile" "mkinitcpio.conf" ".updated" "shadow" "openldap/" "security/" "bash.bash_logout" "sudo_logsrvd.conf" "passwd" "shells" "wgetrc" "gtk-2.0/" "geph2/" "locale.gen.pacnew" "ssh/" "gdb/" "NetworkManager/" ".pwd.lock" "vdpau_wrapper.cfg" "group" "man_db.conf" "group-" "gtk-3.0/" "X11/" "systemd/" "jack/" "login.defs" "request-key.conf" "ca-certificates/" "iptables/" "profile.d/" "xdg/" "libnl/" "makepkg.conf.pacnew" "initcpio/" "gshadow-" "passwd-" "crypttab" "sudoers" "avahi/" "fonts/" "openpmix/" "fstab" "xattr.conf" "tmpfiles.d/" "request-key.d/" "keyutils/" "dconf/" "arch-release" "trusted-key.key" "sudoers.d/" "tpm2-tss/" "gshadow" "ld.so.conf" "ethertypes" "os-release" "resolv.conf" "libinput/" "libaudit.conf" "xray/" "vimrc" "hostname" "localtime" "sudo.conf" "hosts" "libva.conf" "openvpn/")
+
+ ("/home/suss/src/geph/resources/app/binaries/linux-x64/" (25442 8259 260370 475000) "geph4-client" "../" "geph4-vpn-helper" "./" "escalate-helper" "pac" "help")
+
+ ("/home/suss/src/geph/" (25442 7125 976213 686000) "../" "RUN-ME.sh" "LICENSE.electron.txt" "snapshot_blob.bin" "libvk_swiftshader.so" "libvulkan.so" "chrome_200_percent.pak" "resources/" "libffmpeg.so" "./" "swiftshader/" "v8_context_snapshot.bin" "LICENSES.chromium.html" "icudtl.dat" "libGLESv2.so" "gephgui4" "vk_swiftshader_icd.json" "libEGL.so" "chrome-sandbox" "resources.pak" "chrome_100_percent.pak" "locales/")
+
+ ("/home/suss/sfd/src/utils/" (25186 35483 240305 888000) "isHTMLElement.js" "../" "getDocument.js" "keyUtil.js" "asserts.js" "./" "uuid.js" "isBRElement.js" "isElement.js" "__tests__/")
+
+ ("/home/suss/sfd/" (25440 58789 466500 262000) "../" "jest.config.js" "lib/" "package-lock.json" "refs/" "webpack.lib.js" "server/" ".gitignore" "package.json" "package/" "./" ".babelrc" ".git/" "src/" ".eslintrc.js" "webpack.server.js" "node_modules/" ".flowconfig" "README.md")
+
+ ("/home/suss/sfd/src/core/" (25145 38860 540843 529000) "../" "selection/" "component/" "./" "event/")
+
+ ("/home/suss/sfd/node_modules/wbuf/" (25440 31864 230445 452000) "test/" "../" "index.js" "package.json" "./" "README.md")
+
+ ("/home/suss/sfd/node_modules/wbuf/test/" (25440 31864 300446 597000) "../" "wbuf-test.js" "./")
+
+ ("/home/suss/sfd/node_modules/vary/" (25440 31864 307113 373000) "../" "index.js" "LICENSE" "HISTORY.md" "package.json" "./" "README.md")
+
+ ("/home/suss/sfd/node_modules/draft-js/dist/" (25440 31954 938566 323000) "../" "Draft.js" "Draft.min.js" "./" "Draft.css")
+
+ ("/home/suss/sfd/node_modules/draft-js/" (25440 31955 25234 352000) "../" "lib/" "LICENSE" "dist/" "package.json" "./" "CHANGELOG.md" "node_modules/" "README.md")
+
+ ("/home/suss/sfd/node_modules/draft-js/lib/" (25440 31955 25234 352000) "getRangeClientRects.js" "ContentBlockNode.js" "editOnFocus.js" "isHTMLElement.js" "DraftEntity.js" "adjustBlockDepthForContentState.js.flow" "isEventHandled.js" "keyCommandBackspaceToStartOfLine.js.flow" "editOnKeyDown.js" "findRangesImmutable.js.flow" "keyCommandBackspaceToStartOfLine.js" "getRangesForDraftEntity.js" "DraftRemovalDirection.js.flow" "modifyBlockForContentState.js" "uuid.js.flow" "BlockNode.js" "DraftStringKey.js" "getFragmentFromSelection.js" "DefaultDraftBlockRenderMap.js" "DraftEditorBlockNode.react.js" "createCharacterList.js.flow" "DraftEditorBlock.react.js.flow" "ContentStateRawType.js.flow" "editOnCompositionStart.js" "RawDraftContentBlock.js.flow" "RawDraftEntity.js.flow" "DraftEditorContents-core.react.js" "Draft.js" "isSelectionAtLeafStart.js.flow" "SampleDraftInlineStyle.js.flow" "EditorState.js" "DraftEditorPlaceholder.react.js" "DefaultDraftInlineStyle.js.flow" "isHTMLImageElement.js.flow" "sanitizeDraftText.js.flow" "DraftEntityMutability.js.flow" "encodeInlineStyleRanges.js.flow" "editOnPaste.js.flow" "DraftRemovableWord.js.flow" "insertIntoList.js.flow" "RichTextUtils.js" "decodeEntityRanges.js.flow" "gkx.js.flow" "findRangesImmutable.js" "getContentEditableContainer.js.flow" "keyCommandTransposeCharacters.js" "NonASCIIStringSnapshotSerializer.js" "InlineStyleRange.js" "keyCommandUndo.js.flow" "BlockNode.js.flow" "gkx.js" "removeEntitiesAtEdges.js.flow" "splitBlockInContentState.js" "keyCommandBackspaceWord.js.flow" "DraftOffsetKey.js" "isSelectionAtLeafStart.js" "isSoftNewlineEvent.js.flow" "setDraftEditorSelection.js" "DraftPasteProcessor.js" "DraftEntityType.js" "applyEntityToContentState.js" "getCharacterRemovalRange.js.flow" "modifyBlockForContentState.js.flow" "DOMObserver.js.flow" "splitTextIntoTextBlocks.js" "ContentStateInlineStyle.js" "DraftEditorContentsExperimental.react.js.flow" "encodeInlineStyleRanges.js" "editOnFocus.js.flow" "DraftDecorator.js" "randomizeBlockMapKeys.js" "keyCommandInsertNewline.js" "keyCommandPlainDelete.js" "DraftInsertionType.js.flow" "keyCommandDeleteWord.js.flow" "getWindowForNode.js" "RichTextEditorUtil.js" "DraftEditorContents.react.js" "getCorrectDocumentFromNode.js" "DraftTreeAdapter.js.flow" "_DraftTestHelper.js.flow" "editOnInput.js" "RawDraftContentState.js.flow" "EditorBidiService.js" "getCharacterRemovalRange.js" "getSampleStateForTesting.js" "ContentStateRawType.js" "DraftBlockRenderConfig.js" "moveBlockInContentState.js" "splitTextIntoTextBlocks.js.flow" "DraftBlockType.js.flow" "getNextDelimiterBlockKey.js" "DraftEditorCompositionHandler.js.flow" "ContentState.js" "getSafeBodyFromHTML.js.flow" "DraftTreeInvariants.js" "DraftEditorLeaf.react.js.flow" "getRangeBoundingClientRect.js.flow" "DraftRange.js" "getCorrectDocumentFromNode.js.flow" "EditorState.js.flow" "DraftInlineStyle.js.flow" "ContentState.js.flow" "DraftEditorDragHandler.js" "getVisibleSelectionRect.js.flow" "editOnCut.js" "_DraftTestHelper.js" "editOnBeforeInput.js" "getOwnObjectValues.js.flow" "getUpdatedSelectionState.js.flow" "SelectionState.js" "DraftEditorCommand.js" "keyCommandInsertNewline.js.flow" "DraftOffsetKeyPath.js" "ContentBlock.js" "DraftBlockRenderMap.js" "keyCommandPlainBackspace.js.flow" "getSafeBodyFromHTML.js" "EntityRange.js" "mockUUID.js" "DraftEditorEditHandler.js" "isInstanceOfNode.js" "getTextAfterNearestEntity.js" "convertFromRawToDraftState.js" "EntityRange.js.flow" "BlockNodeRecord.js.flow" "applyEntityToContentState.js.flow" "DraftDOMTypes.js.flow" "ContentBlockNode.js.flow" "DraftOffsetKey.js.flow" "DraftInsertionType.js" "CompositeDraftDecorator.js.flow" "DraftEditorTextNode.react.js" "isHTMLAnchorElement.js" "getDefaultKeyBinding.js" "getNextDelimiterBlockKey.js.flow" "editOnCopy.js.flow" "DraftModifier.js" "DraftEntityType.js.flow" "mockUUID.js.flow" "BlockMap.js" "DraftJsDebugLogging.js" "DOMDerivedSelection.js" "editOnCompositionStart.js.flow" "BlockTree.js.flow" "keyCommandTransposeCharacters.js.flow" "SecondaryClipboard.js.flow" "isSoftNewlineEvent.js" "SampleDraftInlineStyle.js" "DraftEditorDragHandler.js.flow" "DraftEffects.js" "editOnDragStart.js" "isHTMLElement.js.flow" "draftKeyUtils.js.flow" "DraftEditorModes.js.flow" "getContentStateFragment.js.flow" "DraftTreeOperations.js" "DraftEntity.js.flow" "getSampleSelectionMocksForTesting.js" "DraftDragType.js.flow" "editOnInput.js.flow" "DraftScrollPosition.js" "BlockNodeRecord.js" "editOnDragStart.js.flow" "getDraftEditorSelectionWithNodes.js" "BlockMapBuilder.js" "DraftEditor.react.js.flow" "NestedRichTextEditorUtil.js" "CharacterMetadata.js.flow" "insertTextIntoContentState.js" "getTextContentFromFiles.js" "applyEntityToContentBlock.js.flow" "getDraftEditorSelection.js.flow" "DraftEditorBlockNode.react.js.flow" "insertTextIntoContentState.js.flow" "DraftStringKey.js.flow" "moveBlockInContentState.js.flow" "keyCommandDeleteWord.js" "generateRandomKey.js.flow" "isHTMLBRElement.js" "DOMObserver.js" "Draft.js.flow" "DraftEditorNode.react.js" "editOnBeforeInput.js.flow" "getOwnObjectValues.js" "ComposedEntityMutability.js.flow" "DraftTextAlignment.js" "DraftBlockRenderMap.js.flow" "KeyBindingUtil.js.flow" "createCharacterList.js" "DraftEditorPlaceholder.react.js.flow" "DraftEditorTextNode.react.js.flow" "DraftTreeAdapter.js" "keyCommandUndo.js" "DraftEntitySegments.js.flow" "DraftEditorDecoratedLeaves.react.js" "DraftEditorContentsExperimental.react.js" "generateRandomKey.js" "InlineStyleRange.js.flow" "isHTMLBRElement.js.flow" "convertFromHTMLToContentBlocks.js" "DraftDragType.js" "DraftEditorContents-core.react.js.flow" "DraftDecoratorType.js" "getDraftEditorSelectionWithNodes.js.flow" "uuid.js" "getSampleSelectionMocksForTestingNestedBlocks.js" "removeRangeFromContentState.js" "moveSelectionForward.js.flow" "getContentStateFragment.js" "DraftEditorCompositionHandler.js" "getSampleSelectionMocksForTesting.js.flow" "DraftEditorCommand.js.flow" "NestedRichTextEditorUtil.js.flow" "BlockMapBuilder.js.flow" "decodeEntityRanges.js" "RawDraftContentState.js" "keyCommandMoveSelectionToEndOfBlock.js.flow" "getFragmentFromSelection.js.flow" "insertFragmentIntoContentState.js" "RawDraftContentBlock.js" "convertFromHTMLToContentBlocks.js.flow" "isHTMLAnchorElement.js.flow" "getSampleSelectionMocksForTestingNestedBlocks.js.flow" "DefaultDraftInlineStyle.js" "getTextAfterNearestEntity.js.flow" "RichTextEditorUtil.js.flow" "SelectionState.js.flow" "decodeInlineStyleRanges.js.flow" "KeyBindingUtil.js" "moveSelectionForward.js" "DraftEditorModes.js" "DraftDecorator.js.flow" "isHTMLImageElement.js" "getDraftEditorSelection.js" "DraftEditorBlock.react.js" "removeTextWithStrategy.js.flow" "convertFromDraftStateToRaw.js" "DraftEntityInstance.js" "AtomicBlockUtils.js" "expandRangeToStartOfLine.js" "DraftEntitySegments.js" "editOnSelect.js.flow" "EditorBidiService.js.flow" "editOnKeyDown.js.flow" "keyCommandMoveSelectionToStartOfBlock.js.flow" "DraftTreeOperations.js.flow" "DOMDerivedSelection.js.flow" "getRangeClientRects.js.flow" "RichTextUtils.js.flow" "getDefaultKeyBinding.js.flow" "DraftEditorFlushControlled.js" "findAncestorOffsetKey.js.flow" "isElement.js" "CompositeDraftDecorator.js" "insertFragmentIntoContentState.js.flow" "insertIntoList.js" "ContentStateInlineStyle.js.flow" "getTextContentFromFiles.js.flow" "BlockMap.js.flow" "getWindowForNode.js.flow" "DraftDOMTypes.js" "removeTextWithStrategy.js" "DraftHandleValue.js.flow" "getEntityKeyForSelection.js" "randomizeBlockMapKeys.js.flow" "ContentBlock.js.flow" "editOnDragOver.js.flow" "DraftEditorLeaf.react.js" "decodeInlineStyleRanges.js" "keyCommandMoveSelectionToStartOfBlock.js" "encodeEntityRanges.js.flow" "encodeEntityRanges.js" "splitBlockInContentState.js.flow" "DraftTextAlignment.js.flow" "DraftRemovableWord.js" "EditorChangeType.js" "keyCommandMoveSelectionToEndOfBlock.js" "DraftEntityInstance.js.flow" "setDraftEditorSelection.js.flow" "isInstanceOfNode.js.flow" "DraftInlineStyle.js" "RawDraftEntity.js" "getContentEditableContainer.js" "DraftRemovalDirection.js" "DraftEntityMutability.js" "expandRangeToStartOfLine.js.flow" "getRangeBoundingClientRect.js" "getSampleStateForTesting.js.flow" "SecondaryClipboard.js" "keyCommandPlainDelete.js.flow" "findAncestorOffsetKey.js" "ComposedEntityMutability.js" "isElement.js.flow" "NonASCIIStringSnapshotSerializer.js.flow" "CharacterMetadata.js" "DraftRange.js.flow" "DraftEditorEditHandler.js.flow" "getSelectionOffsetKeyForNode.js" "removeEntitiesAtEdges.js" "getRangesForDraftEntity.js.flow" "EntityMap.js.flow" "editOnCopy.js" "DraftModifier.js.flow" "EditorChangeType.js.flow" "convertFromDraftStateToRaw.js.flow" "DraftPasteProcessor.js.flow" "BlockTree.js" "DraftBlockRenderConfig.js.flow" "editOnCut.js.flow" "DraftBlockType.js" "moveSelectionBackward.js" "draftKeyUtils.js" "DraftEditorProps.js.flow" "EntityMap.js" "editOnBlur.js" "DraftHandleValue.js" "getEntityKeyForSelection.js.flow" "applyEntityToContentBlock.js" "adjustBlockDepthForContentState.js" "DraftEditorNode.react.js.flow" "DraftScrollPosition.js.flow" "removeRangeFromContentState.js.flow" "DraftEditorProps.js" "DraftTreeInvariants.js.flow" "DraftEditorContents.react.js.flow" "AtomicBlockUtils.js.flow" "getUpdatedSelectionState.js" "editOnDragOver.js" "isEventHandled.js.flow" "editOnBlur.js.flow" "sanitizeDraftText.js" "DraftEditor.react.js" "DraftDecoratorType.js.flow" "DraftJsDebugLogging.js.flow" "getVisibleSelectionRect.js" "moveSelectionBackward.js.flow" "editOnSelect.js" "editOnPaste.js" "getSelectionOffsetKeyForNode.js.flow" "keyCommandPlainBackspace.js" "DraftEffects.js.flow" "DraftOffsetKeyPath.js.flow" "DraftEditorFlushControlled.js.flow" "DraftEditorDecoratedLeaves.react.js.flow" "convertFromRawToDraftState.js.flow" "keyCommandBackspaceWord.js" "DefaultDraftBlockRenderMap.js.flow" "../" "./")
+
+ ("/home/suss/.emacs.d/elpa/pdf-tools-0.91/build/server/.deps/" (25348 19301 283833 532000) "../" "epdfinfo-poppler-hack.Po" "libsynctex_a-synctex_parser_utils.Po" "./" "epdfinfo-epdfinfo.Po" "libsynctex_a-synctex_parser.Po")
+
+ ("/home/suss/uselib/src/" (25439 16796 435754 63000) "../" "App.test.js" "App.js" "index.js" "index.css" "./" "reportWebVitals.js" "App.css" "logo.svg" "setupTests.js")
+
+ ("/home/suss/lib/" (25439 14546 115517 513000) "../" "deps" "lib/" "webpack.lib.js" ".gitignore" "dist/" "package.json" "./" ".babelrc" "src/")
+
+ ("/home/suss/lib/src/utils/__tests__/" (25438 35376 68815 442000) "keyUtil.test.js" "asserts.test.js" "../" "./")
+
+ ("/home/suss/lib/src/utils/" (25438 35376 68815 442000) "isHTMLElement.js" "../" "getDocument.js" "keyUtil.js" "asserts.js" "./" "uuid.js" "isBRElement.js" "isElement.js" "__tests__/")
+
+ ("/home/suss/lib/src/" (25438 35376 65482 106000) "core/" "../" "utils/" "model/" "./" "sfd.js")
+
+ ("/home/suss/uselib/node_modules/draft-js/" (25438 15261 294639 161000) "../" "lib/" "LICENSE" "dist/" "package.json" "./" "CHANGELOG.md" "README.md")
+
+ ("/home/suss/uselib/" (25438 15334 526911 114000) "../" "package-lock.json" ".gitignore" "package.json" "./" ".git/" "src/" "public/" "node_modules/" "README.md")
+
+ ("/home/suss/sfd/node_modules/" (25147 40960 998438 173000) "arr-flatten/" "has-flag/" "is-wsl/" "esrecurse/" "supports-hyperlinks/" "interpret/" "del/" "content-type/" "pascalcase/" "component-emitter/" "rimraf/" "bser/" "https-proxy-agent/" "negotiator/" "on-finished/" "prop-types/" "cookie-signature/" "end-of-stream/" "cross-spawn/" "acorn-jsx/" "encodeurl/" "fb-watchman/" "js-yaml/" "depd/" "gensync/" "object.values/" "enhanced-resolve/" "jsdom/" "esquery/" "mixin-deep/" "is-docker/" "readable-stream/" "is-regex/" "neo-async/" "fast-levenshtein/" "find-up/" "path-is-absolute/" "is-stream/" "lines-and-columns/" "posix-character-classes/" "array-includes/" "abab/" "onetime/" "path-dirname/" "p-limit/" "asynckit/" "css-what/" "react-dom/" "parent-module/" "async-limiter/" "commander/" "babel-plugin-polyfill-regenerator/" "react-shallow-renderer/" "set-value/" "jest-config/" "array-flatten/" "isexe/" "node-releases/" "object.pick/" "http-parser-js/" "p-map/" "espree/" "mimic-fn/" "growly/" "array-unique/" "jest-get-type/" "braces/" "table/" "detect-newline/" "clean-css/" "path-to-regexp/" "readdirp/" "uuid/" "errno/" "vary/" "error-ex/" "safe-buffer/" "get-intrinsic/" "sprintf-js/" "typedarray-to-buffer/" "mime/" "read-pkg/" "slice-ansi/" "punycode/" "sockjs-client/" "has-values/" "urix/" "picomatch/" "eslint-plugin-react/" "relateurl/" "@webpack-cli/" "node-fetch/" "fs.realpath/" "array.prototype.flatmap/" "functional-red-black-tree/" "clone-deep/" "find-cache-dir/" "spdy/" "atob/" "argparse/" "jest-message-util/" "core-js/" "ci-info/" "is-potential-custom-element-name/" "require-directory/" "draft-js/" "requires-port/" "jest-cli/" "symbol-tree/" "define-properties/" "is-fullwidth-code-point/" "@eslint/" "raw-body/" "terser/" "to-object-path/" "http-errors/" "pretty-format/" "is-string/" "nanoid/" "uri-js/" "hpack.js/" "supports-color/" "htmlparser2/" "text-table/" "ansi-escapes/" "tmpl/" "arr-union/" "querystringify/" "lodash.merge/" "is-boolean-object/" "get-package-type/" "leven/" "p-try/" "@istanbuljs/" "chrome-trace-event/" "exit/" "terminal-link/" "unicode-property-aliases-ecmascript/" "json-parse-better-errors/" "postcss-modules-values/" "pretty-error/" "caniuse-lite/" "kleur/" "semver/" "combined-stream/" "yargs/" "jest-environment-node/" "ip-regex/" "default-gateway/" "cssesc/" "babel-loader/" "terser-webpack-plugin/" "is-windows/" "is-shared-array-buffer/" "emoji-regex/" "fast-deep-equal/" "jest-regex-util/" "sisteransi/" "is-plain-object/" "jsx-ast-utils/" "is-path-cwd/" "core-js-compat/" "type-check/" "ansi-regex/" "on-headers/" "html-encoding-sniffer/" "jest-haste-map/" "is-number-object/" "ignore/" "flatted/" "fresh/" "util-deprecate/" "static-extend/" "is-weakref/" "flat-cache/" "nanomatch/" "nwsapi/" "v8-to-istanbul/" "opn/" "safer-buffer/" "json3/" "babel-plugin-dynamic-import-node/" "css-select/" "w3c-hr-time/" "buffer-indexof/" "domelementtype/" "source-map-js/" "statuses/" "webpack-sources/" "decode-uri-component/" "mkdirp/" "lodash.debounce/" "concat-map/" "buffer-from/" "lodash/" "string.prototype.trimstart/" "imurmurhash/" "enquirer/" "strip-json-comments/" "strip-ansi/" "deep-is/" "mime-types/" "graceful-fs/" "html-webpack-plugin/" "es-module-lexer/" "cache-base/" "clean-webpack-plugin/" "string_decoder/" "prettier/" "regenerator-runtime/" "tapable/" "body-parser/" "jest-docblock/" "html-minifier-terser/" "object.entries/" "is-core-module/" "normalize-path/" "@jridgewell/" "domexception/" "nth-check/" "@webassemblyjs/" "split-string/" "internal-slot/" "escape-html/" "dot-case/" "pirates/" "etag/" "querystring/" "webidl-conversions/" "accepts/" "whatwg-encoding/" "define-property/" "picocolors/" "has-value/" "inherits/" "upath/" "array-union/" "snapdragon-node/" "type-fest/" "esutils/" "loader-utils/" "to-regex/" "p-retry/" "source-map-resolve/" "jest-runtime/" "spdy-transport/" "dns-txt/" "istanbul-lib-report/" "csstype/" "object.hasown/" "pkg-dir/" "media-typer/" "jest-snapshot/" "p-each-series/" "jest-watcher/" "domutils/" "is-generator-fn/" "json5/" "loose-envify/" "micromatch/" "regenerator-transform/" "istanbul-lib-source-maps/" "object-assign/" "@nicolo-ribaudo/" "stack-utils/" "multicast-dns/" "@ampproject/" "shebang-regex/" "istanbul-lib-coverage/" "fastest-levenshtein/" "callsites/" "array-uniq/" "arr-diff/" "form-data/" "unpipe/" "parse-json/" "content-disposition/" "webpack-dev-middleware/" "glob-to-regexp/" "whatwg-url/" "thunky/" "doctrine/" "file-entry-cache/" "json-stable-stringify-without-jsonify/" "camel-case/" "schema-utils/" "babel-plugin-jest-hoist/" "progress/" "snapdragon/" "url/" "jest-resolve/" "loader-runner/" "strip-bom/" "scheduler/" "@humanwhocodes/" "fast-json-stable-stringify/" "domhandler/" "jest-environment-jsdom/" "rsvp/" "throat/" "get-symbol-description/" "side-channel/" "resolve-cwd/" "faye-websocket/" "to-fast-properties/" "spdx-exceptions/" "glob-parent/" "pify/" "object-visit/" "escape-string-regexp/" "delayed-stream/" "walker/" "diff-sequences/" "eslint/" "html-escaper/" "commondir/" "eslint-plugin-flowtype/" "minimalistic-assert/" "string-length/" "spdx-license-ids/" "once/" "babel-preset-current-node-syntax/" "y18n/" "unset-value/" "co/" "webpack-log/" "postcss-selector-parser/" "sockjs/" "babel-plugin-polyfill-corejs2/" "levn/" "copy-descriptor/" "string-width/" "cssstyle/" "import-fresh/" "object.fromentries/" "shallow-clone/" "jest-mock/" "emojis-list/" "prelude-ls/" "strip-final-newline/" "has-bigints/" "binary-extensions/" "async/" "lower-case/" "rechoir/" "expand-brackets/" "selfsigned/" "for-in/" "detect-node/" "es-abstract/" "decimal.js/" "extend-shallow/" "is-descriptor/" "string-natural-compare/" "map-cache/" "he/" "deep-equal/" "http-proxy-agent/" "unicode-canonical-property-names-ecmascript/" "range-parser/" "ee-first/" "extglob/" "webpack-cli/" "jest-diff/" "destroy/" "regjsparser/" "decamelize/" "portfinder/" "renderkid/" "acorn/" "is-path-inside/" "electron-to-chromium/" "is-ci/" "jest-resolve-dependencies/" "http-deceiver/" "ms/" "collection-visit/" "jest-worker/" "convert-source-map/" "hosted-git-info/" "parse5/" "test-exclude/" "ansi-html-community/" "use/" "url-parse/" "agent-base/" "object-is/" "type-is/" "ajv-errors/" "is-date-object/" "ip/" "ret/" "@tootallnate/" "browser-process-hrtime/" "chalk/" "get-stream/" "kind-of/" "asap/" "fbjs-css-vars/" "mime-db/" "events/" "escodegen/" "tough-cookie/" "type-detect/" "pinkie/" "webpack-dev-server/" "source-map/" "send/" "has/" "char-regex/" "jest-pnp-resolver/" "memory-fs/" "serve-static/" "jest-changed-files/" "parseurl/" "base/" "json-parse-even-better-errors/" "prr/" "pump/" "jest/" "eslint-config-prettier/" "qs/" "shellwords/" "jest-matcher-utils/" "websocket-driver/" "regexpp/" "chokidar/" "is-glob/" "promise/" "pinkie-promise/" "require-main-filename/" "escalade/" "minimist/" "makeerror/" "glob/" "xml-name-validator/" "path-key/" "is-negative-zero/" "express/" "react-test-renderer/" "inflight/" "obuf/" "function-bind/" "capture-exit/" "unicode-match-property-value-ecmascript/" "core-util-is/" "which-module/" "is-path-in-cwd/" "sane/" "jest-leak-detector/" "ua-parser-js/" "node-int64/" "regenerate/" "nice-try/" "strip-eof/" "pascal-case/" "react-is/" "source-map-support/" "assign-symbols/" "regexp.prototype.flags/" "resolve-from/" "@jest/" "jest-jasmine2/" "debug/" "ansi-colors/" "object-copy/" "estraverse/" "methods/" "loglevel/" "unbox-primitive/" "select-hose/" "isobject/" "class-utils/" "eventsource/" "node-forge/" "has-tostringtag/" "string.prototype.matchall/" "babel-plugin-istanbul/" "param-case/" "expect/" "style-loader/" "json-schema-traverse/" "utila/" "postcss-value-parser/" "tslib/" "postcss-modules-scope/" "internal-ip/" "watchpack/" "brace-expansion/" "camelcase/" "http-proxy/" "whatwg-mimetype/" "is-symbol/" "tr46/" "is-extendable/" "entities/" "is-binary-path/" "compression/" "fs-readdir-recursive/" "colorette/" "merge-descriptors/" "shebang-command/" "eslint-config-babel/" "postcss-modules-extract-imports/" "require-from-string/" "esprima/" "@xtuc/" "multicast-dns-service-types/" "remove-trailing-separator/" "acorn-globals/" "jest-util/" "serve-index/" "acorn-walk/" "is-absolute-url/" "is-number/" "css-loader/" "execa/" "universalify/" "word-wrap/" "process-nextick-args/" "is-arguments/" "is-callable/" "cross-env/" "postcss-modules-local-by-default/" "react/" ".bin/" "@types/" "yargs-parser/" "get-value/" "envinfo/" "read-pkg-up/" "forwarded/" "wbuf/" "istanbul-reports/" "yallist/" "postcss/" "v8-compile-cache/" "resolve/" "ajv-keywords/" "lru-cache/" "globby/" "original/" "jest-validate/" "color-convert/" "is-typedarray/" "balanced-match/" "make-dir/" "randombytes/" "optionator/" "proxy-addr/" "repeat-string/" "@babel/" "is-arrayish/" "human-signals/" "object.assign/" "babel-runtime/" "object-keys/" "http-proxy-middleware/" "browserslist/" "@sinonjs/" "collect-v8-coverage/" "killable/" "locate-path/" "spdx-expression-parse/" "cjs-module-lexer/" "bytes/" "natural-compare/" "jest-each/" "finalhandler/" "p-finally/" "setimmediate/" "dom-converter/" "regenerate-unicode-properties/" "wildcard/" "which-boxed-primitive/" "saxes/" "istanbul-lib-instrument/" "ipaddr.js/" "serialize-javascript/" "html-entities/" ".package-lock.json" "prompts/" "to-regex-range/" "astral-regex/" "dom-serializer/" "immutable/" "babel-preset-jest/" "color-name/" "has-symbols/" "merge-stream/" "batch/" "jsesc/" "object-inspect/" "webpack-merge/" "import-local/" "compressible/" "call-bind/" "eslint-visitor-keys/" "acorn-import-assertions/" "webpack/" "es-to-primitive/" "deepmerge/" "exec-sh/" "jest-serializer/" "repeat-element/" "follow-redirects/" "minimatch/" "cssom/" "is-data-descriptor/" "flow-bin/" "regex-not/" "is-accessor-descriptor/" "no-case/" "source-map-url/" "babel-jest/" "fbjs/" "emittery/" "ajv/" "wrappy/" "is-buffer/" "union-value/" "bonjour/" "set-blocking/" "path-parse/" "babel-plugin-polyfill-corejs3/" "setprototypeof/" "@bcoe/" "cliui/" "path-is-inside/" "connect-history-api-fallback/" "retry/" "@cnakazawa/" "fill-range/" "isarray/" "icss-utils/" "string.prototype.trimend/" "supports-preserve-symlinks-flag/" "anymatch/" "iconv-lite/" "ws/" "@discoveryjs/" "regexpu-core/" "psl/" "globals/" "signal-exit/" "cookie/" "is-extglob/" "lodash.truncate/" "async-each/" "dns-packet/" "npm-run-path/" "babel-polyfill/" "xmlchars/" "handle-thing/" "wrap-ansi/" "is-bigint/" "p-locate/" "boolbase/" "slash/" "get-caller-file/" "ansi-styles/" "resolve-url/" "eventemitter3/" "validate-npm-package-license/" "fragment-cache/" "eslint-utils/" "spdx-correct/" "data-urls/" "snapdragon-util/" "which/" "write-file-atomic/" "utils-merge/" "toidentifier/" "cross-fetch/" "jest-runner/" "unicode-match-property-ecmascript/" "big.js/" "websocket-extensions/" "node-notifier/" "dns-equal/" "eslint-scope/" "js-tokens/" "normalize-package-data/" "safe-regex/" "regjsgen/" "map-visit/" "w3c-xmlserializer/" "path-exists/" "../" "./")
+
+ ("/home/suss/uselib/public/" (24755 30641 0 0) "../" "logo512.png" "logo192.png" "manifest.json" "./" "index.html" "robots.txt" "favicon.ico")
+
+ ("/home/suss/node/rollup_1/" (25437 61317 412728 608000) "../" "package-lock.json" "dist/" "package.json" "./" "src/" "node_modules/" "rollup.config.js")
+
+ ("/home/suss/node/" (25436 39142 718371 609000) "../" "my2.js" "my1.js" "rollup-starter-app/" "./" "rollup_1/")
+
+ ("/home/suss/node/rollup_1/src/" (25437 13180 413429 556000) "../" "index.js" "./")
+
+ ("/home/suss/node/rollup-starter-app/" (25436 38439 623985 597000) "../" "LICENSE" "package-lock.json" ".gitignore" "package.json" "./" ".git/" "src/" "public/" "node_modules/" "rollup.config.js" "README.md")
+
+ ("/home/suss/dsa/ds/" (25433 2929 707633 59000) "../" "container_of.h" "2" "macro.h" "./" "tree.h" "queue.h" "list.h" "1")
+
+ ("/home/suss/dsa/" (25433 3051 685727 860000) "../" "a/" "exp.c" "dsa" "dsa.c" "package.json" "./" "ds/" ".git/" "dsa.js")
+
+ ("/home/suss/src/emacs/src/" (25431 11277 508195 243000) "unexec.h" "nsmenu.m" "w32common.h" "w32term.h" "sound.o" "process.o" "xfont.o" "config.in" "w32gui.h" "unexmacosx.c" "cygw32.c" "unexw32.c" "buffer.c" "bootstrap-emacs" "json.c" "nsfont.m" "inotify.o" "image.c" "emacsgtkfixed.c" "search.c" "callint.c" "widgetprv.h" "deps.mk" "intervals.h" "deps/" "nsfns.m" "category.h" "print.c" "README" "coding.c" "fileio.o" "dispnew.c" "emacs-27.2.1.pdmp" "w32font.h" "w32fns.c" "terminal.o" "systhread.c" "print.o" "xfaces.o" "gfilenotify.c" "w32reg.c" "insdel.o" "lread.c" "w32inevt.h" "nsimage.m" "unexcoff.c" "COPYING" "dired.c" "module-env-26.h" "marker.c" "buffer.h" "Makefile.in" "w32uniscribe.c" "ChangeLog.6" "fringe.o" "indent.h" "callproc.c" "w32.c" "xmenu.c" "systty.h" "floatfns.c" "w32console.c" "xterm.c" "xftfont.c" "dosfns.c" "xselect.c" "fringe.c" "keyboard.o" "pdumper.o" "bidi.c" "module-env-27.h" "systime.h" "xfns.o" "editfns.o" "w32.h" "nsselect.m" "textprop.o" "eval.c" "w32term.c" "frame.h" "window.o" "indent.c" "fontset.o" "inotify.c" "disptab.h" "keymap.h" "w32proc.c" "xterm.o" "alloc.o" "unexsol.c" "ChangeLog.4" "nsgui.h" "window.h" "eval.o" "xrdb.o" "profiler.c" "lcms.o" "module-env-25.h" "unexaix.c" "floatfns.o" "emacs-27.2.1" "lastfile.c" "buildobj.h" "w32heap.c" "sheap.c" "ftxfont.c" "vm-limit.c" "emacs.c" "xwidget.o" "xml.o" "msdos.c" "ccl.h" "tparam.h" "termcap.c" "xfont.c" "cygw32.h" "emacs-module.c" "cm.o" "systhread.h" "thread.o" "lastfile.o" "terminal.c" "conf_post.h" "font.h" "lread.o" "composite.c" "config.h" "sysdep.o" "charset.c" "image.o" "syswait.h" "syntax.o" "xgselect.h" "bootstrap-emacs.pdmp" "process.c" "macfont.h" "gnutls.h" ".dbxinit" "hbfont.c" "gl-stamp" "xgselect.c" "emacs-icon.h" "macros.o" "bidi.o" "dbusbind.c" "menu.o" "sheap.h" "w32menu.c" "region-cache.o" "thread.c" "w32select.h" "w32xfns.c" "blockinput.h" "ChangeLog.9" "dynlib.o" "ccl.o" "profiler.o" "termopts.h" "process.h" "mini-gmp-emacs.c" "fontset.c" "ptr-bounds.h" "fns.c" "macros.c" "doprnt.c" "cmds.o" "xwidget.c" "intervals.c" "emacs-module.h.in" "doprnt.o" "bignum.o" "w32font.c" "fileio.c" "ChangeLog.2" "dmpstruct.awk" "filelock.o" "puresize.h" "dispextern.h" "terminfo.o" "hbfont.o" "xdisp.o" "xsettings.o" "ChangeLog.13" "macfont.m" "emacsgtkfixed.o" "ftfont.h" "textprop.c" "character.o" "pdumper.h" "regex-emacs.c" "emacs-module.o" "data.c" "xsmfns.c" "sysdep.c" "composite.o" "xselect.o" "ftcrfont.o" "fns.o" "getpagesize.h" "bignum.h" "ChangeLog.3" "dynlib.h" "alloc.c" "emacs" "systhread.o" "nsterm.h" "pdumper.c" "ChangeLog.10" "emacs.pdmp" "minibuf.c" "dired.o" "commands.h" "macuvs.h" "bignum.c" "gnutls.o" "xfaces.c" "unexcw.c" "editfns.c" "Makefile" "dispnew.o" "dosfns.h" "kqueue.c" "undo.c" "decompress.c" "window.c" "xrdb.c" "lisp.mk" "character.h" "xgselect.o" "bytecode.o" "gtkutil.c" "coding.o" "scroll.c" "json.o" "xfns.c" "charset.h" "sysstdio.h" "syntax.h" ".gdbinit" "frame.o" "charset.o" "cm.c" "regex-emacs.h" "epaths.h" "regex-emacs.o" "bitmaps/" "keymap.c" "unexelf.c" "cm.h" "w32notify.c" "ChangeLog.8" "indent.o" "composite.h" "keyboard.c" "decompress.o" "sound.c" "insdel.c" "scroll.o" "character.c" "syntax.c" "gtkutil.h" "dynlib.c" "xsettings.c" "firstfile.c" "casefiddle.c" "gmalloc.c" "emacs.o" "emacsgtkfixed.h" "w32cygwinx.c" "mini-gmp.c" "font.c" "bytecode.c" "timefns.o" "ChangeLog.5" "emacs-module.h" "timefns.c" "filelock.c" "ChangeLog.11" "data.o" "atimer.h" "marker.o" "xmenu.o" "search.o" "ChangeLog.7" "fontset.h" "termchar.h" "lcms.c" "gnutls.c" "thread.h" "doc.c" "minibuf.o" "syssignal.h" "chartab.o" "sysselect.h" "doc.o" "casetab.c" "casetab.o" "epaths.in" "category.c" "dbusbind.o" "region-cache.h" "category.o" "macros.h" "ralloc.c" "ccl.c" "font.o" "xdisp.c" "xterm.h" "widget.h" "cmds.c" "globals.h" "buffer.o" "menu.c" "frame.c" "coding.h" "w32heap.h" "atimer.c" "term.c" "atimer.o" "xsettings.h" "undo.o" "ChangeLog.12" "unexhp9k800.c" "region-cache.c" "w32select.c" "callint.o" "gtkutil.o" "ftfont.o" "tparam.c" "widget.c" "msdos.h" "w16select.c" "term.o" "temacs" "callproc.o" "keymap.o" "ChangeLog.1" "terminfo.c" "xwidget.h" "mini-gmp.h" "lisp.h" "ftcrfont.c" "xml.c" "nsterm.m" "chartab.c" "intervals.o" "w32inevt.c" "ftfont.c" "menu.h" "keyboard.h" "xsmfns.o" "termhooks.h" "casefiddle.o" "../" "./")
+
+ ("/home/suss/dsa/a/" (25418 11774 144799 110000) "search.c" "../" "bubble.c" "selection.c" "recursive.c" "merge.c" "./" "quick.c" "sort.c" "binary.c" "radix.c" "kmp.c" "naive.c" "algo.js")
+
+ ("/home/suss/.irc/ssl/" (25428 61257 966904 702000) "../" "nick.crt" "nick.key" "./" "nick.cer")
+
+ ("/home/suss/sh/" (25410 27510 513988 119000) "../" "efi" "de54" "installer" "./" "down" "ipt" "mir" "8412" "u" "up")
+
+ ("/home/suss/algo/" (25386 39469 546832 541000) "../" "algo" "selection.c" "macro.h" "./" "quick.c" "algo.c" "radix.c" "algo.js")
+
+ ("/home/suss/tmp/dir1/" (25163 50037 487493 94000) "file" "../" "./")
+
+ ("/home/suss/src/emacs/" (25282 42032 845631 356000) "c" "test/" "autogen.sh" "configure.ac" "../" "admin/" "README" "COPYING" "lib/" "Makefile.in" "configure" "msdos/" "nt/" "aclocal.m4" "lib-src/" "etc/" "lwlib/" "info/" ".gitignore" "BUGS" "INSTALL.REPO" "leim/" "m4/" "site-lisp/" ".clang-format" "ChangeLog.2" "CONTRIBUTE" ".gitlab-ci.yml" "config.status" "./" "config.bat" "ChangeLog.3" "build-aux/" "Makefile" "INSTALL" "nextstep/" "src/" "modules/" "GNUmakefile" "config.log" "doc/" "MANIFEST" "oldXMenu/" ".gitattributes" "ChangeLog" ".dir-locals.el" "ChangeLog.1" "make-dist" "lisp/")
+
+ ("/home/suss/.emacs.d/elpa/pdf-tools-0.91/build/server/" (25348 19465 500326 579000) "synctex_parser_utils.c" "test/" "autogen.sh" "configure.ac" "../" ".deps/" "autom4te.cache/" "Makefile.in" "configure" "config.h.in" "epdfinfo.h" "aclocal.m4" "libsynctex.a" "epdfinfo-poppler-hack.o" ".gitignore" "synctex_parser_readme.txt" "poppler-hack.cc" "config.h" "m4/" "libsynctex_a-synctex_parser_utils.o" "synctex_parser.c" "install-sh" "synctex_parser_utils.h" "poppler-versions" "config.status" "./" "epdfinfo.c" "synctex_parser_advanced.h" "Makefile" "epdfinfo-epdfinfo.o" "missing" "compile" "synctex_version.h" "ar-lib" "synctex_parser_local.h" "config.log" "synctex_parser.h" "depcomp" "config.sub" "libsynctex_a-synctex_parser.o" "install_test.cpp" "Makefile.am" "synctex_parser_version.txt" "autobuild" "stamp-h1" "epdfinfo" "config.guess")
+
+ ("/usr/share/emacs/" (25218 17674 102897 329000) "../" "28.1/" "site-lisp/" "./")
+
+ ("/usr/share/emacs/28.1/" (25218 17674 102897 329000) "../" "etc/" "site-lisp/" "./" "lisp/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

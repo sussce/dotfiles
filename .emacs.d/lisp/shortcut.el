@@ -15,7 +15,7 @@
 			                    (or (bound-and-true-p home-directory) (getenv "HOME")))) . tor)
            (("tor-browser") . torw)
 	         ((ansi-term "/bin/bash") . sh)
-           (("chromium" "--incognito" "--window-size=\"1300,960\"" "--proxy-bypass-list=localhost" "--proxy-server=127.0.0.1:9910" "--proxy-server=socks5://127.0.0.1:9909") . cw1)
+           (("chromium" "--incognito" "--window-size=\"1300,960\"") . cw1)
 	         (("chromium" "--incognito" "--window-size=\"1300,960\"" "--proxy-bypass-list=localhost" "--proxy-server=127.0.0.1:9910" "--proxy-server=socks5://127.0.0.1:9909") . cw)
 	         (("firefox-esr" "-P" "default" "--private-window" "--no-remote") . w)
 	         (("firefox-esr" "-P" "geph" "--private-window" "--no-remote") . fw)

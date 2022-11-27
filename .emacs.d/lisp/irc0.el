@@ -8,7 +8,7 @@
 
 (setq erc-tags-format nil)
 
-;; (erc-toggle-debug-irc-protocol)
+(erc-toggle-debug-irc-protocol)
 ;; (progn
 ;;   (setq erc-server-reconnecting nil
 ;;         erc--server-reconnecting t)
@@ -22,8 +22,8 @@
 (add-to-list 'erc-modules 'notifications)
 (erc-update-modules)
 
-(setq erc-nick ""
-      erc-user-full-name ""
+(setq erc-nick "suss"
+      erc-user-full-name " "
       erc-server "irc.libera.chat"
       erc-port 6697)
 
@@ -117,7 +117,36 @@
        :full-name erc-user-full-name
        :client-certificate `(,(expand-file-name "nick.key" erc-ssl-directory)
                              ,(expand-file-name "nick.crt" erc-ssl-directory)))
-    (message "ignore <%s>" var/irc-session)))
+    (message "ignore connect to %s" var/irc-session)))
+
+(defun erc-kill-check (&optional arg)
+  (interactive "P")
+  (unless (and (symbolp current-prefix-arg) (eql '- current-prefix-arg))
+    (message "ignore kill %s" (buffer-name))
+    (error "ignore kill %s" (buffer-name))))
+(add-hook 'erc-kill-server-hook 'erc-kill-check)
+
+(defun erc-server-send-ping (buf)
+  "Send a ping to the IRC server buffer in BUF.
+Additionally, detect whether the IRC process has hung."
+  (if (and (buffer-live-p buf)
+           (with-current-buffer buf
+             erc-server-last-received-time))
+      (with-current-buffer buf
+        (if (and erc-server-send-ping-timeout
+                 (time-less-p
+                  erc-server-send-ping-timeout
+                  (time-since erc-server-last-received-time)))
+            (progn
+              ;; if the process is hung, kill it
+              (setq erc-server-timed-out t)
+              (erc-cmd-QUIT ""))
+          (erc-server-send (format "PING %.0f" (erc-current-time)))))
+    ;; remove timer if the server buffer has been killed
+    (let ((timer (assq buf erc-server-ping-timer-alist)))
+      (when timer
+        (cancel-timer (cdr timer))
+        (setcdr timer nil)))))
 
 ;; for read-only, `erc-text-matched-hook'
 ;; instead of sending a desktop notification, just print the message
