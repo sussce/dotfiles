@@ -25,9 +25,7 @@ INCLUDES =
 LIBS =
 
 srcs = main.c dep1.c
-
 objs = $(srcs:.c=.o)
-
 target = main
 
 all: $(target)

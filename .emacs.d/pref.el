@@ -40,7 +40,8 @@
  '(show-paren-mode t)
  '(size-indication-mode t)
  '(tool-bar-mode nil)
- '(tooltip-mode nil))
+ '(tooltip-mode nil)
+ '(warning-suppress-types '((erc-sasl))))
  
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

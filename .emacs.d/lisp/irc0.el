@@ -3,12 +3,11 @@
 (require 'erc)
 (require 'erc-v3)
 (push 'v3 erc-modules)
+(push 'eldoc erc-modules)
 (push 'sasl erc-v3-extensions)
-(setq erc-v3-sasl-mechanism 'external)
+(setq erc-sasl-mechanism 'external)
 
-(setq erc-tags-format nil)
-
-(erc-toggle-debug-irc-protocol)
+;; (erc-toggle-debug-irc-protocol)
 ;; (progn
 ;;   (setq erc-server-reconnecting nil
 ;;         erc--server-reconnecting t)
@@ -21,6 +20,8 @@
 
 (add-to-list 'erc-modules 'notifications)
 (erc-update-modules)
+
+(setq erc-tags-format nil)
 
 (setq erc-nick "suss"
       erc-user-full-name " "
