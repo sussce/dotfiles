@@ -2,6 +2,11 @@
 
 (require 'exwm)
 
+;; Do not require this file directly in your user configuration
+;; (require 'exwm-config)
+
+(exwm-enable)
+
 (setq exwm-workspace-minibuffer-position 'bottom
       exwm-workspace-display-echo-area-timeout 5)
 
@@ -20,20 +25,6 @@
 ;;         ([?\C-v] . [next])
 ;;         ([?\C-d] . [delete])
 ;;         ([?\C-k] . [S-end delete])))
-
-(add-hook 'exwm-manage-finish-hook
-          (lambda ()
-            (cond ((and exwm-class-name
-                        (member exwm-class-name '("Firefox" "firefox-esr" "Chromium")))
-                   (exwm-input-set-local-simulation-keys '(([?\C-c ?\C-c] . ?\C-c))))
-                  (t nil))))
-
-(add-hook 'exwm-update-class-hook
-          (lambda ()
-            (exwm-workspace-rename-buffer exwm-class-name)))
-
-(provide 'exwm0)
-;; exwm ends
 
 ;; (string-match "\\`\\(.*\\)\\( - [^-]*\\)\\'" title)
  
@@ -55,3 +46,17 @@
 
 ;; (define-key exwm-mode-map (kbd "C-c C-c") nil)
 ;;   (lambda () (interactive) (exwm-input--fake-key ?\C-c)))
+
+(add-hook 'exwm-manage-finish-hook
+          (lambda ()
+            (cond ((and exwm-class-name
+                        (member exwm-class-name '("Firefox" "firefox-esr" "Chromium")))
+                   (exwm-input-set-local-simulation-keys '(([?\C-c ?\C-c] . ?\C-c))))
+                  (t nil))))
+
+(add-hook 'exwm-update-class-hook
+          (lambda ()
+            (exwm-workspace-rename-buffer exwm-class-name)))
+
+(provide 'exwm0)
+;; exwm0.el

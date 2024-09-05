@@ -1,4 +1,4 @@
-;; buffer0.el Buffer stuff
+;; buffer0.el
 
 (require 'key-chord)
 
@@ -24,4 +24,4 @@
 (key-chord-define-global ",g" 'goto-line)
 
 (provide 'buffer0)
-;; buffer0.el ends
+;; buffer0.el

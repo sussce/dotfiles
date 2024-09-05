@@ -35,7 +35,7 @@
  '(fringe-mode 0 nil (fringe))
  '(menu-bar-mode nil)
  '(package-selected-packages
-   '(erc-49860 exwm pdf-tools erc flow-minor-mode ag expand-region company-flow flycheck-flow xref-js2 emms nov flycheck company colorless-themes key-chord))
+   '(key-chord colorless-themes exwm js2-mode pdf-tools erc flow-minor-mode ag expand-region company-flow flycheck-flow xref-js2 emms nov flycheck company))
  '(scroll-bar-mode nil)
  '(show-paren-mode t)
  '(size-indication-mode t)

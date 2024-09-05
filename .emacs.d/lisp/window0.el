@@ -1,4 +1,4 @@
-;; window0.el Window stuff
+;; window0.el
 
 (require 'key-chord)
 
@@ -27,4 +27,4 @@ set window as non-dedicated."
 ;;     (set-window-dedicated-p (selected-window) dedicated)))
  
 (provide 'window0)
-;; window0.el ends
+;; window0.el 

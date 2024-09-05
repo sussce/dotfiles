@@ -5,77 +5,26 @@
 
 (require 'key-chord)
 
-(defvar bridges '("1.ams.nl.ngexits.geph.io" "1.mtl.ca.ngexits.geph.io" "1.pdx.us.ngexits.geph.io"
-                  "1.sgp.sg.ngexits.geph.io" "1.waw.pl.ngexits.geph.io"
-
-                  "2.mtl.ca.ngexits.geph.io" "2.pdx.us.ngexits.geph.io" "2.waw.pl.ngexits.geph.io"
-
-                  "3.mtl.ca.ngexits.geph.io" "3.pdx.us.ngexits.geph.io" "3.waw.pl.ngexits.geph.io"
-                  "4.pdx.us.ngexits.geph.io"
-
-                  "ca-mtl-104.geph.io" "ca-mtl-105.geph.io" "ca-mtl-106.geph.io"
-                  "ca-mtl-107.geph.io" "ca-mtl-108.geph.io" "ca-mtl-109.geph.io"
-                  
-                  "ch-zrh-01.exits.geph.io"
-                  "cz-prg-101.geph.io"
-
-                  "fr-par-101.geph.io" "fr-par-102.geph.io"
-                  "fr-par-103.geph.io" "fr-par-104.geph.io"
-                  "fr-par-105.geph.io" "fr-par-106.geph.io"
-                  "fr-par-107.geph.io" "fr-par-108.geph.io"
-                  "fr-par-109.geph.io" "fr-par-110.geph.io"
-                  "fr-par-111.geph.io" "fr-par-112.geph.io"
-                  
-                  "jp-tyo-01.exits.geph.io"
-                  
-                  "tw-tpe-101.geph.io" "tw-tpe-102.geph.io"
-                  "us-pdx-105.geph.io" "us-pdx-106.geph.io"
-                  "us-pdx-107.geph.io" "us-sfo-101.geph.io"))
-
 ;;(makunbound 'shortcuts)
 (defvar shortcuts
   (let ((map
          `(;; ?sh
-           (("/opt/gowrite/gowrite2") . go)
-           (("~/q5go/bin/q5go") . qgo)
            ((erc-connect) . irc)
 
-           ;; server
            (("geph5-client" "-c" ,(expand-file-name
 			                             ".geph.yaml"
 			                             (or (bound-and-true-p home-directory) (getenv "HOME")))) . g5)
-
-           (("geph4-client" "connect"
-             "--exit-server" "us-pdx-105.geph.io"
-             "--use-bridges" "--exclude-prc"
-             "auth-password" "--username" "sus11" "--password" "11sus") . g)
-
-           (("geph4-client" "connect"
-             "--exit-server" "us-pdx-106.geph.io"
-             "--use-bridges" "--exclude-prc"
-             "auth-password" "--username" "sus11" "--password" "11sus") . g1)
-
-           (("geph4-client" "connect"
-             "--exit-server" "us-pdx-107.geph.io"
-             "--use-bridges" "--exclude-prc"
-             "auth-password" "--username" "sus11" "--password" "11sus") . g2)
-
-           (("geph4-client" "connect"
-             "--exit-server" "fr-par-101.geph.io"
-             "--use-bridges" "--exclude-prc"
-             "auth-password" "--username" "sus11" "--password" "11sus") . g3)
-           
            (("stardict") . dic)
 	         (("tor" "-f" ,(expand-file-name
 			                    ".tor/torrc"
 			                    (or (bound-and-true-p home-directory) (getenv "HOME")))) . tor)
-           (("tor-browser") . torw)
+           (("tor-browser") . tw)
 	         ((ansi-term "/bin/bash") . sh)
            (("chromium" "--incognito" "--window-size=\"1300,960\"" "--no-proxy-server") . cw)
-	         (("chromium" "--incognito" "--window-size=\"1300,960\"" "--proxy-bypass-list=localhost" "--proxy-server=127.0.0.1:9910" "--proxy-server=socks5://127.0.0.1:9909") . cwg)
-	         (("firefox-esr" "-P" "default" "--private-window" "--no-remote") . w)
-	         (("firefox-esr" "-P" "g" "--private-window" "--no-remote") . wg)
-	         (("firefox-esr" "-P" "tor" "--private-window" "--no-remote") . wt)))
+	         (("chromium" "--incognito" "--proxy-bypass-list=localhost" "--proxy-server=127.0.0.1:9999" "--proxy-server=socks5://127.0.0.1:9999") . cwg)
+	         (("firefox" "-P" "0" "--private-window" "--no-remote") . w)
+	         (("firefox" "-P" "g" "--private-window" "--no-remote") . wg)
+	         (("firefox" "-P" "tor" "--private-window" "--no-remote") . wt)))
 	      (symbol-valid (lambda (arg)
 			                  (if (symbolp arg)
 			                      (or (fboundp arg)

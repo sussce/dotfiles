@@ -1,4 +1,4 @@
-;; package.el Package stuff -*- lexical-binding: t -*-
+;; package0.el -*- lexical-binding: t -*-
 
 (require 'package)
 
@@ -9,4 +9,4 @@
 (add-to-list 'package-archives '("org" . "https://orgmode.org/elpa/") t)
 
 (provide 'package0)
-;; package0.el ends
+;; package0.el

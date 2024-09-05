@@ -1,4 +1,4 @@
-;; devjs.el JS stuff
+;; devjs.el
 
 (add-to-list 'auto-mode-alist '("\\.js\\'" . js-mode))
 (add-hook 'js-mode-hook 'dev/with-minor)

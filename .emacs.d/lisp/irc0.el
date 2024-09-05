@@ -1,27 +1,21 @@
-;; irc0.el IRC
+;; irc0.el
 
 (require 'erc)
-(require 'erc-v3)
-(push 'v3 erc-modules)
-(push 'eldoc erc-modules)
-(push 'sasl erc-v3-extensions)
-(setq erc-sasl-mechanism 'external)
 
-;; (erc-toggle-debug-irc-protocol)
-;; (progn
-;;   (setq erc-server-reconnecting nil
-;;         erc--server-reconnecting t)
-;;   (cl-incf erc-server-reconnect-count)
-;;   (run-at-time
-;;    erc-server-reconnect-timeout
-;;      nil
-;;      #'erc-server-delayed-reconnect
-;;      (current-buffer)))
-
-(add-to-list 'erc-modules 'notifications)
+(push 'sasl erc-modules)
+;; (push 'notifications erc-modules)
 (erc-update-modules)
 
-(setq erc-tags-format nil)
+;; (erc-toggle-debug-irc-protocol)
+
+(setq erc-server-auto-reconnect t
+      erc-server-reconnect-timeout 20)
+
+(setopt erc-sasl-mechanism 'external)
+
+(setq erc-config-directory (expand-file-name ".irc" home-directory)
+      erc-log-directory (expand-file-name "log" erc-config-directory)
+      erc-ssl-directory (expand-file-name "ssl" erc-config-directory))
 
 (setq erc-nick "suss"
       erc-user-full-name " "
@@ -29,13 +23,9 @@
       erc-port 6697)
 
 (setq erc-hide-list '("JOIN" "PART" "QUIT" "TOPIC"))
-;;(setq erc-track-exclude-types '("NICK" "333" "353"))
+;; (setq erc-track-exclude-types '("NICK" "333" "353"))
 
 (setq erc-autojoin-channels-alist '(("libera.chat")))
-
-(setq erc-config-directory (expand-file-name ".irc" home-directory)
-      erc-log-directory (expand-file-name "log" erc-config-directory)
-      erc-ssl-directory (expand-file-name "ssl" erc-config-directory))
 
 (setq erc-quit-reason 'erc-part-reason-various
       erc-quit-reason-various-alist '(("^$" "")))
@@ -45,58 +35,29 @@
       erc-autoaway-message "away %i seconds"
       erc-autoaway-idle-seconds 120)
 
-(setq erc-server-auto-reconnect t)
-(setq erc-try-new-nick-p t)
+(setq erc-try-new-nick-p t
+      erc-nick-uniquifier "_")
+
 (setq erc-join-buffer 'bury)
+(setq erc-tags-format nil)
 
-(setq erc-server-reconnect-timeout 20)
-;; try advising `'erc-server-delayed-reconnect' to reschedule timing when there's no connectivity.
-;; do something like (network-lookup-address-info "irc.libera.chat") to
-;; check for connectivity, by advising with `:before-until (test ...)'
-
-;; (lambda (buffer)
-;;   (condition-case nil
-;;       (delete-process
-;;        (open-network-stream
-;;         "*experiment*"
-;;         nil
-;;         "irc.libera.chat" 6667
-;;         :type
-;;         'plain))
-;;     (file-error
-;;      (setq erc--server-reconnect-timer
-;;            (run-at-time
-;;             erc-server-reconnect-timeout nil
-;;             #'erc-server-delayed-reconnect buffer)))))
-
-;; display a message every time you reschedule.
-;; (erc-display-message nil 'error (current-buffer) 'reconnecting ?m
-;;                      erc-server-reconnect-timeout ?n
-;;                      (- erc-server-reconnect-attempts
-;;                         (cl-incf erc-server-reconnect-count)) ?s "s")
-
-(setq erc-nick-uniquifier "_")
 (defconst var/libera "Libera.Chat")
 (defconst var/libera-session "irc.libera.chat:6697")
 (defvar var/irc-session nil)
 
-;; "\\`\\(?: \\(Libera.Chat\\) \\| \\(Libera.Chat/nick[_]\\{0,2\\}\\) \\)\\'"
-;; "\\`\\(?: \\(Libera.Chat\\) \\| \\(Libera.Chat[/nick] \\) \\)\\'"
-;; "\\` Libera.Chat \\(/ nick \\)? \\'"
 (defvar erc-server-reg
   (let ((begin "\\`")
         (end "\\'") fm fm_srv)
     (setq fm_srv (concat var/libera "\\(/" erc-nick "\\)?"))
     (setq fm (concat begin fm_srv end))))
 
-;; "\\`irc.libera.chat:6697\\(<[0-9]>\\)?\\'"
 (defvar erc-session-reg
   (let ((begin "\\`")
         (end "\\'") fm fm_srv)
     (setq fm_srv (concat var/libera-session "\\(" "<[0-9]>" "\\)?" ))
     (setq fm (concat begin fm_srv end))))
 
-(defun irc-live-p (&rest args)
+(defun erc-live-p (&rest args)
   (let ((bufs (buffer-list)))
     (catch 'return
       (dolist (buf bufs)
@@ -106,16 +67,15 @@
                  (string-match erc-session-reg (buffer-name buf))))
           (setq var/irc-session buf)
           (throw 'return t))))))
-(advice-add 'erc-tls :before-until #'irc-live-p)
+(advice-add 'erc-tls :before-until #'erc-live-p)
 
 (defun erc-connect ()
   (interactive)
-  (if (not (irc-live-p))
+  (if (not (erc-live-p))
       (erc-tls
        :server erc-server
        :port erc-port
-       :nick erc-nick
-       :full-name erc-user-full-name
+       :user erc-nick
        :client-certificate `(,(expand-file-name "nick.key" erc-ssl-directory)
                              ,(expand-file-name "nick.crt" erc-ssl-directory)))
     (message "ignore connect to %s" var/irc-session)))
@@ -165,5 +125,4 @@ Additionally, detect whether the IRC process has hung."
 (key-chord-define-global "ia" 'erc-track-switch-buffer)
 
 (provide 'irc0)
-;; irc0.el end
-
+;; irc0.el

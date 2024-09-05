@@ -1,4 +1,4 @@
-;; macro0.el Macro level
+;; macro0.el
 
 (require 'macroexp)
 (require 'gv)
@@ -51,4 +51,4 @@
      ,@(if (cdr (cdr spec)) (cdr (cdr spec)))))
 
 (provide 'macro0)
-;; macro0.el ends
+;; macro0.el
